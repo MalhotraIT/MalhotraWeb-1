@@ -77,7 +77,7 @@ export default function SuggestionsForm({ texts }: SuggestionsFormProps) {
     formData.append("Message", data.Message)
 
     try {
-      const response = await axios.post("https://formspree.io/f/xwpogdoo", formData)
+      const response = await axios.post("https://formspree.io/f/xeokwbro", formData)
 
       if (response.status === 200) {
         setSubmitResult({
